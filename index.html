@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- google-fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;0,800;1,700;1,800&family=Nunito:wght@200;300;400;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- boxions link -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's me</h3>
+        <h1>K Praveen Kumar</h1>
+        <h3>And I'm a <span class="auto-type"></span></h3>
+
+        <div class="social-media">
+          <a href="https://github.com/Praveen0698"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/praveen-kumar-a0aaa215b"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
+        </div>
+
+        <a href="praveenResumeFDE.pdf" class="btn" download>Download CV</a>
+      </div>
+
+      <div class="home-img">
+        <img src="one.jpg" alt="Profile Image" />
+      </div>
+    </section>
+
+    <!-- about section design -->
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="two.jpg" alt="My_img" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Full Stack Developer!</h3>
+        <p>
+          I completed my Automobile Engineering from chandigarh University
+          passing year 2022. I'm likely skilled in
+          <span>JAVA, HTML, CSS, JS, MONGOdB, EXPRESS, NODE and REACT.</span>
+          My hobbies are Travelling and listening songs. My strengths are my
+          determination and my hardworking nature. I am fresher and I have no
+          work experience but I am also a fast learner, so I am sure I will get
+          used to working in much less time. So that's all about me.
+        </p>
+      </div>
+    </section>
+
+    <!-- service section design -->
+
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h2>Web Development</h2>
+          <p>
+            Web development is the work involved in developing a website for the
+            Internet (World Wide Web) or an intranet (a private network). Web
+            development can range from developing a simple single static page of
+            plain text to complex web applications, electronic businesses, and
+            social network services.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-paint"></i>
+          <h2>Content Writing</h2>
+          <p>
+            Content writing is the process of planning, writing and editing web
+            content, typically for digital marketing purposes. It can include
+            writing blog posts and articles, scripts for videos and podcasts, as
+            well as content for specific platforms, such as tweetstorms on
+            Twitter or text posts on Reddit.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxl-sketch"></i>
+          <h2>Poster Designing</h2>
+          <p>
+            Poster design is the one that can convey a message to its audience
+            in a unique way. The use of colors, typefaces, images,
+            illustrations, etc. elements must stand out. The other factors such
+            as scalability and readability of your poster should also be
+            considered.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section -->
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="gym.jpg" alt="gym-image" class="image" />
+          <div class="portfolio-layer">
+            <h4>Fitness Studio</h4>
+            <p>
+              It is a Demo website and completely responsive. It can open in any
+              device and it is fully compatible
+            </p>
+
+            <a href="https://praveen0698.github.io/Gym/"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="drum.jpg" alt="drum-image" class="image" />
+          <div class="portfolio-layer">
+            <h4>Play the Drum-Set</h4>
+            <p>
+              Play the drum set made by me. It is completely responsive, also it
+              is easy to play
+            </p>
+
+            <a href="https://praveen0698.github.io/Drum_Set/"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form action="/" method="post">
+        <div class="input-box">
+          <input type="text" name="Fname" placeholder="Full Name" />
+          <input type="email" name="email" placeholder="Email Address" />
+        </div>
+
+        <div class="input-box">
+          <input type="text" name="number" placeholder="Mobile Number" />
+          <select name="subject">
+            <option value="recruitment">Recruitment</option>
+            <option value="enquiry">Enquiry</option>
+            <option value="Freelancing">Free-Lancing</option>
+          </select>
+        </div>
+
+        <textarea
+          cols="30"
+          rows="10"
+          name="message"
+          placeholder="Enter your message"
+        ></textarea>
+
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Praveen</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- scroll reveal script -->
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <!-- typing script -->
+    <script src="script.js"></script>
+  </body>
+</html>
